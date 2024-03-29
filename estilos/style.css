@@ -33,10 +33,13 @@ section#login {
     /*as 4 linhas acima são para colocar o conteúdo no meio da tela, assim como o position relative no main*/
     overflow: hidden; /*tudo que estiver fora da borda, vai ficar escondido*/
     background-color: white;
-    width: 70%;
-    height: 70%;
+    width: 60vw;
+    height: 70vh;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+
+    transition: width 0.3s, heigth 0.3s; /*transição para quando mudar o tamanho*/
+    transition-timing-function: ease; /*suavizar a animação da transição*/
 }
 
 section#login > div#imagem {
