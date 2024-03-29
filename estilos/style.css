@@ -6,3 +6,48 @@
     Lilás: #5f2c82
 */
 
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*p/ a borda fazer parte da conta*/
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /*as 4 linhas acima são para colocar o conteúdo no meio da tela, assim como o position relative no main*/
+    overflow: hidden; /*tudo que estiver fora da borda, vai ficar escondido*/
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+section#login > div#imagem {
+    display: block; /*só p/ a imagem ser exibida como um bloco por padrão*/
+    background: #5f2c82 url(../imagens/predio.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: left bottom;
+}
+
+section#login > div#formulario {
+    display: block; /*só p/ ser exibida como um bloco por padrão*/
+    padding: 10px;
+}
