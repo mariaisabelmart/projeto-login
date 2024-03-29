@@ -46,7 +46,7 @@ section#login > div#imagem {
     display: block; /*só p/ a imagem ser exibida como um bloco por padrão*/
     background: #5f2c82 url(../imagens/predio.jpg) no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 300px;
     background-position: left bottom;
 }
 
