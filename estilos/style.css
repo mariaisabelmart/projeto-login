@@ -33,8 +33,8 @@ section#login {
     /*as 4 linhas acima são para colocar o conteúdo no meio da tela, assim como o position relative no main*/
     overflow: hidden; /*tudo que estiver fora da borda, vai ficar escondido*/
     background-color: white;
-    width: 500px;
-    height: 800px;
+    width: 70%;
+    height: 70%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
